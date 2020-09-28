@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>J. Junaid Jamshaid Official Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body style="height:1500px">
+
+
+    <!-- first nav bar -->
+        <nav class="navbar navbar-expand-sm bg-light navbar-light">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">WELCOME TO J.</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SIGN IN</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TRACKING INFO</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CREATE AN ACCOUNT</a>
+                </li>
+                <li class="nav-item">
+                    <select class="form-control" id="currency" name="slectlist2">\
+                        <option>PKR</option>
+                        <option>AUD</option>
+                        <option>GBP</option>
+                        <option>CAD</option>
+                        <option>EUR</option>
+                        <option>INR</option>
+                        <option>JPY</option>
+                        <option>SAR</option>
+                        <option>SEK</option>
+                        <option>CHF</option>
+                        <option>USD</option>
+                        <option>AED</option>
+                    </select>
+                </li>
+            </ul>
+        </nav>
+    <!-- logo -->
+    <p>
+        <img src="logo.png" alt="J." class="mx-auto d-block mt-2" width="50px" height="50px">
+    </p>
+
+    <!-- second nav bar -->
+        <nav class="navbar navbar-expand-sm bg-white navbar-light justify-content-center py-2 sticky-top">
+            <ul class="navbar-nav">
+                <li class="nav-item ml-5">
+                    <a class="nav-link dropdown-toggle" href="#" id="newarrivals" role="button" data-toggle="dropdown" >NEW ARRIVALS</a>
+                    <div class="dropdown-menu dropdown-menu-center" aria-labelledby="dropdown">
+                    <!-- mega menu -->
+                    <div class=" d-sm-flex align-items-start justify-content-start p-2 flex-fill">
+                        <!-- image -->
+                     <div>
+                            <img src="newarrival1.jpg" class="image fluid" alt="new arrival" >
+                     </div>
+                     <!-- women collection -->
+                     <div>   
+                      <div class="dropdown-header">WOMEN-MID SUMMER</div>
+                      <div class="dropdown-header">COLLECTION '20</div>
+                      <a class="dropdown-item" href="#">WOMEN UNSTITCHED</a>
+                      <a class="dropdown-item" href="#">WOMEN STITCHED</a>
+                      <a class="dropdown-item" href="#">WOMEN KURTI</a>
+                      <a class="dropdown-item" href="#">TEENS PRETWEAR</a>
+                     </div>
+                     <!-- men collection -->
+                     <div>
+                        <div class="dropdown-header">MEN-FESTIVE</div>
+                        <div class="dropdown-header">COLLECTION '20-VOL II</div>
+                        <a class="dropdown-item" href="#">TA'ASSUR PREMIUM COLLECTION</a>
+                        <a class="dropdown-item" href="#">MEN KAMEEZ SHALWAR</a>
+                        <a class="dropdown-item" href="#">MEN KURTA</a>
+                        <a class="dropdown-item" href="#">MEN WAIST COAT</a>
+                        <a class="dropdown-item" href="#">MEN CAPS</a>
+                        <a class="dropdown-item" href="#">MEN UNSTITCHED COLLECTION</a>
+                     </div>
+                     <!-- special collection -->
+                     <div>
+                      <div class="dropdown-header">EXCLUSIVE COLLECTION</div>
+                      <a class="dropdown-item" href="#">BLACK AND WHITE COLLECTION</a>
+                      <a class="dropdown-item" href="#">WOMEN STITCHED-SPECIAL EDITION</a>
+                     </div>
+                     <!-- groom collection -->
+                     <div>
+                        <div class="dropdown-header">GROOM COLLECTION</div>
+                        <a class="dropdown-item" href="#">SHERWANI</a>
+                        <a class="dropdown-item" href="#">MEN SPECIAL KURTA</a>
+                        <a class="dropdown-item" href="#">TEEN'S SPECIAL KURTA</a>
+                        <a class="dropdown-item" href="#">KID'S SPECIAL KURTA</a>
+                        <a class="dropdown-item" href="#">INFANT'S SPECIAL KURTA</a>
+                        <a class="dropdown-item" href="#">SHAWL</a>
+                       </div>
+                       <!-- image -->
+                     <div>
+                        <img src="newarrival2.jpg" class="image fluid" alt="new arrival">
+                    </div>
+                    </div>
+                    </div>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">WOMEN</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">MEN</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">BOYS AND GIRLS</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">FRAGRANCES</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">MAKEUP</a>
+                </li>
+                <li class="nav-item ml-3">
+                    <a class="nav-link" href="#">CATALOGUE</a>
+                </li>
+            </ul>
+        </nav>
+
+    <!-- carousel -->
+    <div id="demo" class="container-fluid carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner mx-2" style="margin-top: 2%;">
+          <div class="carousel-item active">
+            <img src="grooms_1.jpg" alt="Groom" width="1300" height="550">
+          </div>
+          <div class="carousel-item">
+            <img src="banner1_4.jpg" alt="banner" width="1300" height="550">
+          </div>
+          <div class="carousel-item">
+            <img src="1.jpg" alt="1" width="1300" height="550">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+
+
+
+
+</body>
+</html>
