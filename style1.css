@@ -1,3 +1,9 @@
+.startpage {
+  background-image: url("background1.jpg");
+  background-size: auto;
+  background-attachment: fixed;
+}
+
 body {
   background-image: url("background.jpg");
   background-size: auto;
