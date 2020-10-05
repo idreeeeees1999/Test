@@ -1,11 +1,11 @@
 .startpage {
-  background-image: url("background1.jpg");
+  background-image: url("resources/background1.jpg");
   background-size: auto;
   background-attachment: fixed;
 }
 
 body {
-  background-image: url("background.jpg");
+  background-image: url("resources/background.jpg");
   background-size: auto;
   background-attachment: fixed;
 }
